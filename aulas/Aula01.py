@@ -46,30 +46,4 @@ n2 = int(input('Digite um número: '))
 while n2 >=0:
     print(n2)
     n2 -=1
-
-
-#Apresente os números pares de um determinado valor - resolver aula
-n3 = int(input('Digite um número: '))
-for i in range(1, n3):
-    if i %2 == 0 :
-        print(i)
-
-
-#Crie um programa em python que adivinha um número de 1 a 10 - resolver aula
-import random
-numero_adivinhar = random.randint(1,10)
-
-
-numero_escolhido = 0
-
-
-while numero_escolhido != numero_adivinhar:
-    numero_escolhido = int(input('Adivinhe um número entre 1 e 10: '))
-    if numero_escolhido > numero_adivinhar:
-        print("Muito alto! Tente novamente.")
-    elif numero_escolhido  < numero_adivinhar:
-        print("Muito baixo! Tente novamente.")
-    else:
-        print("Parabéns! Você acertou!!.")
-
-        
+    
